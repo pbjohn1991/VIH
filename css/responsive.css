@@ -183,8 +183,9 @@
 	.navbar-default .navbar-toggle{margin-top: 10px;}
 	.navbar-default .navbar-nav{padding: 15px;margin: 0;float: none;}
 	.navbar-brand>img{width: 170px;padding-left: 15px;}	
-	.navbar-default .navbar-nav>li{margin: 0;}
+	.navbar-default .navbar-nav>li{margin: 0;overflow: hidden;}
 	.navbar-default .navbar-nav>li>a{padding: 10px 0;font-size: 15px;}
+	.navbar-nav>li>.dropdown-menu{display: block;opacity: 1;visibility: visible;min-width: 100%;position: relative;background:#f7f7f7;box-shadow: none;}
 
 	.main-banner{padding: 0 0 40px;}
 	div#one {order: 2;}
@@ -229,10 +230,8 @@
 	.our-client-wrp h3{font-size: 32px;}
 	.our-client-wrp ul li{width: 50%;}
 	.our-client-wrp ul li .client-box{margin: 0 0 30px;}
-	.our-client-wrp ul li .client-box img{width: 140px;height: 140px;}
+	.our-client-wrp ul li .client-box img{width: 130px;height: 130px;}
 	.our-client-wrp ul li .client-box h4{font-size: 14px;min-height: 60px;line-height: 22px;}
-	.our-client-wrp ul li:last-child{width: 100%;}
-	.our-client-wrp ul li:last-child .client-box{margin: 0;}
 	/* **** End About Page **** */
 
 	/* **** Services Page **** */
@@ -276,7 +275,7 @@
 	.blog-data a#three {order:2;}
 	.blog-data p{font-size: 12px;line-height: 20px;color: #261604;margin: 0;}
 	.blog-data a.btn-main{padding: 0;background: transparent;font-size: 14px;color: #0F3DB5;text-decoration: underline;font-weight: 500;margin: 0;min-width: auto;text-align: left;margin: 5px 0 15px;}
-	.blog-data h6{font-size: 14px;font-weight: normal;color: #717171;}
+	.blog-data h6{font-size: 14px;font-weight: normal;color: #717171;margin: 0;}
 	.blog-pager li{margin: 0;}
 	.blog-pager li a{padding: 5px 8px;font-size: 16px;}
 	.blog-pager{margin: 0;}
@@ -288,8 +287,10 @@
 	.navbar-default .navbar-toggle{margin-top: 10px;}
 	.navbar-default .navbar-nav{padding: 15px;margin: 0;float: none;}
 	.navbar-brand>img{width: 170px;padding-left: 15px;}	
-	.navbar-default .navbar-nav>li{margin: 0;}
+	.navbar-default .navbar-nav>li{margin: 0;overflow: hidden;}
 	.navbar-default .navbar-nav>li>a{padding: 10px 0;font-size: 15px;}
+
+	.navbar-nav>li>.dropdown-menu{display: block;opacity: 1;visibility: visible;min-width: 100%;position: relative;background:#f7f7f7;box-shadow: none;}
 
 	.main-banner{padding: 0 0 40px;}
 	div#one {order: 2;}
@@ -334,10 +335,8 @@
 	.our-client-wrp h3{font-size: 32px;}
 	.our-client-wrp ul li{width: 50%;}
 	.our-client-wrp ul li .client-box{margin: 0 0 30px;}
-	.our-client-wrp ul li .client-box img{width: 140px;height: 140px;}
+	.our-client-wrp ul li .client-box img{width: 130px;height: 130px;}
 	.our-client-wrp ul li .client-box h4{font-size: 14px;min-height: 60px;line-height: 22px;}
-	.our-client-wrp ul li:last-child{width: 100%;}
-	.our-client-wrp ul li:last-child .client-box{margin: 0;}
 	/* **** End About Page **** */
 
 	/* **** Services Page **** */
@@ -381,7 +380,7 @@
 	.blog-data a#three {order:2;}
 	.blog-data p{font-size: 12px;line-height: 20px;color: #261604;margin: 0;}
 	.blog-data a.btn-main{padding: 0;background: transparent;font-size: 14px;color: #0F3DB5;text-decoration: underline;font-weight: 500;margin: 0;min-width: auto;text-align: left;margin: 5px 0 15px;}
-	.blog-data h6{font-size: 14px;font-weight: normal;color: #717171;}
+	.blog-data h6{font-size: 14px;font-weight: normal;color: #717171;margin: 0;}
 	.blog-pager li{margin: 0;}
 	.blog-pager li a{padding: 5px 8px;font-size: 16px;}
 	.blog-pager{margin: 0;}
