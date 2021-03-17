@@ -707,4 +707,51 @@ div#two {order: 2;}
 h6#one {order: 1;}
 p#two {order: 2;}
 a#three {order: 3;}
+
+.blog-details-wrp{
+    padding: 30px 0;
+    width: 100%;
+}
+.backpg a{
+    display: table;
+    margin: 0 0 25px;
+    font-size: 18px;
+    font-weight: normal;
+    color: #fff;
+    transition: .4s linear;
+}
+.backpg i{
+    margin-right:15px;
+    font-size: 17px;
+}
+.backpg a:hover{
+    color: #4BB8E0;
+}
+.blog-de-img img{
+    width: 100%;
+    margin: 0;
+    border-radius: 10px;
+}
+.blog-createdbx{
+    padding: 25px 0;
+    width: 100%;
+}
+.blog-createdbx h5{
+    margin: 0;
+    font-size: 15px;
+    font-weight: normal;
+    color: #fff;
+    opacity: 0.30;
+}
+.blog-createdbx h5 span{
+    float: right;
+}
+.blog-breif-dt p{
+    font-size: 15px;
+    font-weight: normal;
+    color: #fff;
+    line-height: 24px;
+    margin: 0 0 15px;
+}
+.blog-breif-dt p:last-child{margin: 0;}
 /* **** End Blog Page **** */
